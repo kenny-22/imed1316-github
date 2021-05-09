@@ -1,0 +1,34 @@
+.wrapper-content {
+  margin: auto;
+  width: 800px;
+}
+
+.content-table{
+  border-collapse:collapse;
+  max-width:800px;
+  box-shadow:0 0 20px rgba(0, 0, 0, 0.35);
+  margin: auto;
+  text-align:center;  
+  }
+
+.content-table thead tr{
+  background-color:red;
+  color:white;
+  font-weight:bold;
+}
+
+.content-table th, .content-table td{
+  padding:12px;
+}
+/*did not follow the tbody command*/
+.content-table tbody tr {
+ border-bottom: 1px solid #dddddd
+  }
+ 
+.content-table tbody tr:nth-of-type(even) {
+  bcakground-color:#f3f3f3;
+}
+
+.content-table tbody tr: last-of-type {
+  border-bottom: 3px solid red;
+}
